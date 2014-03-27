@@ -1,0 +1,5 @@
+.link {padding-left:7px;border-style:solid;border-width:thin;border-color:DBDDDE;background-color:#9AC0F8; width:124px}
+.link:hover {background-color:yellow}
+.link:active {background-color:#F4A609}
+
+.result {padding-left:10px; background-color: #DBDDDE; width: 530px}

@@ -1,0 +1,37 @@
+<html>
+<head>
+        <script type="text/javascript" src="submit.js"></script>
+        <link rel="stylesheet" type="text/css" href="SearchStyle.css" />
+        <title> Bingo </title>
+	<link rel="icon" href="icon.png"/>
+</head>
+<body>
+	<center>
+		<div style="height:130px;"></div>
+		<div>
+			<img src="logo_big.PNG" >
+		</div>
+		<div style="height:200px;">
+			<form method="post" action="result.jsp">	
+				<table cellpadding="3" cellspacing="1">
+					<tr>
+						<input type="text" name="txtname" maxlength="150" size="50" style="width:450px;">
+					</tr>
+					<tr>
+						<td >
+							<input type="submit" name="all" value="Search">
+						</td>
+						<td>
+							<input type="submit" name="lucky" value="I'm feeling lucky!">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div>
+			<font>click <a href="topWords.jsp">here</a> for frequent words</font>
+		</div>
+	</center>
+</body>
+
+</html>
